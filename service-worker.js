@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/randon_quote_machine/precache-manifest.457fdfbc14c914fc4cd389120c3a42a8.js"
+  "/Randon_Quote_Machine/precache-manifest.09e0c5d6100ecbed2972f92610456245.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/randon_quote_machine/index.html", {
+workbox.routing.registerNavigationRoute("/Randon_Quote_Machine/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
