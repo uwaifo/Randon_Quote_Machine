@@ -40,7 +40,7 @@ class App extends Component {
       return undefined;
     }
     return random(0, this.state.quotes.length - 1);
-   }
+  }
 
   newQuoteIndex() {
     this.setState({ selectedQuote: this.generateNewQuoteIndex() });
@@ -49,6 +49,7 @@ class App extends Component {
   nxtQuoteClickHandler() {
     console.log("clicked");
   }
+
   render() {
     console.log(this.state.selectedQuote);
     return (
