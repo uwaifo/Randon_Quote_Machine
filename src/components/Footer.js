@@ -4,7 +4,7 @@ import Link from "@material-ui/core/Link";
 export default function Footer() {
   return (
     <div>
-      <Link href="http://www.overstandapps.com" variant="body1">
+      <Link href="https://github.com/uwaifo" variant="body1">
         Designed by OverstandApps
       </Link>
     </div>
